@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calc">
+        <div class="screen">
+            <input id="display" type="text" name="val" id="val"  placeholder="Enter Value" readonly >
+        </div>
+        <div class="buttons">
+
+          
+          <button id="facto">X!</button>
+          <button id="percent"  onclick="append('%')">%</button>
+          <button id="del">Del</button>
+          <button id="CE">CE</button>
+
+          <button id="7" onclick="append('7')">7</button>
+          <button id="8" onclick="append('8')">8</button>
+          <button id="9" onclick="append('9')">9</button>
+          <button id="X " class="orange" onclick="append('*')">X</button>
+                    
+          <button id="4" onclick="append('4')">4</button>
+          <button id="5" onclick="append('5')">5</button>
+          <button id="6" onclick="append('6')">6</button>
+          <button id="- " class="orange" onclick="append('-')">-</button>
+
+          <button id="1" onclick="append('1')">1</button>
+          <button id="2" onclick="append('2')">2</button>
+          <button id="3" onclick="append('3')">3</button>
+          <button id="+ " class="orange" onclick="append('+')">+</button>
+
+          <button id="0" onclick="append('0')">0</button>
+          <button id="." onclick="append('.')">.</button>
+          <button id="/" class="orange" onclick="append('/')">/</button>
+          <button id="=" class="orange" >=</button>
+
+          
+          <button id="pi">π</button>
+          <button id="expo"  onclick="append('**')">x<sup>y</sup></button>
+          <button id="Ans">Ans</button>
+          <button id="e">e</button>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
